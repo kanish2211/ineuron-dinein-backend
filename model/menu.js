@@ -22,6 +22,10 @@ const menuSchema=new Schema({
         type:String,
         required:true
     },
+    veg: {
+        type:Boolean,
+        required:true
+    },
     price: {
         type:Number,
         required:true
